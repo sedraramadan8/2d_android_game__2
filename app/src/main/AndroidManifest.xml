@@ -11,6 +11,8 @@
         android:theme="@style/Theme.Android2DGame">
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
